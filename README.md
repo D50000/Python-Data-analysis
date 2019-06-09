@@ -1,33 +1,38 @@
-Python Data analysis
+#Python Data analysis
+Introduce and practice Python by "Data analysis".
+
+
+## 1.Environment and CLI setup
+native: python + library package use "pip" command.
+IDE: Anaconda use "conda" command. (It bundle all the useful tool for data analysis)
+
+
+## 2.Python native data structures
+Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
+
+Number（数字）
+String（字符串）: write-protect
+List（列表）: List: similar with simple List in Java.
+Tuple（元组）: write-protect version of List.
+Set（集合）: Set is an unordered collection of unique items. 
+Dictionary（字典）: Dict: similar with Object
+
 
 ps: 
 dir(); //return all methods.
-
-# 1.Environment and CLI
-IDE: Anaconda > conda
-???
-native: python + library package > pip
-
-# 2.Python native data structures
-
-List: similar with simple List
-labels = ['account', 'Jan', 'Feb', 'Mar']
-
-Tuple: similar with Array
-nested_tup = (4, 5, 6), (7, 8)
-
-Dict: similar with Object
-dictionary = {'account' : 'Jones LLC', 'Jan' : 150, 'Feb' : 200, 'Mar' : 140}
-
-set:
 
 ps: 
 pandas library
 DataFrame: similar with Table
 
 numpy: Array
+labels = ['account', 'Jan', 'Feb', 'Mar']
 
-# 3.Loading files and importing library
+Tuple: similar with Array
+nested_tup = (4, 5, 6), (7, 8)
+
+
+## 3.Loading files and importing library
 // import library
 import pandas as pd
 
@@ -45,15 +50,24 @@ pandas
 scikit-learn
 TensorFlow
 
-# 4.Function define
+// drawing graphic 
+matplotlib.pyplot
+pandas DataFrame
+seaborn newer package
+ggplot more powerful
+bokeh, plotly for interactive graphic
+
+
+## 4.Function define
 def add_and_maybe_multiply(a, b, c=None):
     result = a + b
     if c is not None:
         result = result * c
     return result
 
-# 5.Sting Methods
 str[1:5]
 
 
 
+### Reference
+https://www.programiz.com/

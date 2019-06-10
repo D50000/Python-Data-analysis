@@ -1,21 +1,21 @@
-#Python Data analysis
-Introduce and practice Python by "Data analysis".
-
+# Python Data analysis
+Introduce and practice Python in "Data analysis".
 
 ## 1.Environment and CLI setup
-native: python + library package use "pip" command.
-IDE: Anaconda use "conda" command. (It bundle all the useful tool for data analysis)
+native: python + library package use `pip` command.
+IDE: Anaconda use `conda` command. (It bundle all the useful tool for data analysis)
 
 
 ## 2.Python native data structures
-Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
+Every value in Python has a datatype. Since everything is an `object` in Python programming, data types are actually classes and variables are instance (object) of these classes.
 
-Number（数字）
-String（字符串）: write-protect
-List（列表）: List: similar with simple List in Java.
-Tuple（元组）: write-protect version of List.
-Set（集合）: Set is an unordered collection of unique items. 
-Dictionary（字典）: Dict: similar with Object
+- Number（数字）
+- String（字符串）: write-protect
+- List（列表）: List: similar with simple List in Java.
+- Tuple（元组）: write-protect version of List.
+- Set（集合）: Set is an unordered collection of unique items. 
+- Dictionary（字典）: Dict: similar with Object
+
 
 
 ps: 

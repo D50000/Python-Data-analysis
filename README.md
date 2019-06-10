@@ -2,7 +2,7 @@
 Introduce and practice Python in "Data analysis".
 
 ## 1.Environment and CLI setup
-native: python + library package use `pip` command.
+native: python + library package use `pip` command.  
 IDE: Anaconda use `conda` command. (It bundle all the useful tool for data analysis)
 
 

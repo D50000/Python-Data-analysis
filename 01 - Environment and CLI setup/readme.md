@@ -2,15 +2,20 @@
 ## Python Source Code
 
  1. Download Python at https://www.python.org/downloads/mac-osx/
- 2. type `python --version` on cmd to check the python version.
+
+ 2. Type `python --version` on cmd to check the python version.
+
+ 3. Type `python3 hello.py` to run the file.
 
   
   
 
 ## Python IDE
 
-Download Anaconda and setup.  
+1. Download Anaconda and setup.  
 It bundle the `Python language`, `R language`, `Spyder IDE`.  
+
+2. Use the IDE to run it.(Ｈot Ｋey: shift + enter)
 
   
 

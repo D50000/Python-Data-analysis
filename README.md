@@ -1,6 +1,7 @@
 # Python Data analysis
 Introduce and practice Python in "Data analysis".
 
+
 ## 1.Environment and CLI setup
 native: python + library package use `pip` command.  
 IDE: Anaconda use `conda` command. (It bundle all the useful tool for data analysis)
@@ -17,9 +18,15 @@ Every value in Python has a datatype. Since everything is an `object` in Python 
 - Dictionary（字典）: Dict: similar with Object
 
 
+## 3.Loading files and importing library
+Import library:
+import pandas as pd
 
-ps: 
-dir(); //return all methods.
+Import specific methods:
+from datetime import datetime, date, time
+
+Read file:
+dat = pd.read_csv('./home/user/file.tab', sep = '\t')
 
 ps: 
 pandas library
@@ -32,15 +39,6 @@ Tuple: similar with Array
 nested_tup = (4, 5, 6), (7, 8)
 
 
-## 3.Loading files and importing library
-// import library
-import pandas as pd
-
-// import specific methods
-from datetime import datetime, date, time
-
-// read file
-dat = pd.read_csv('./home/user/file.tab', sep = '\t')
 
 Numpy
 Scipy

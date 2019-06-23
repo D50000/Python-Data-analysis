@@ -17,16 +17,19 @@ Every value in Python has a datatype. Since everything is an `object` in Python 
 - Set（集合）: Set is an unordered collection of unique items. 
 - Dictionary（字典）: Dict: similar with Object
 
-ps: Extended Data Type
-pandas library
-DataFrame: similar with Table
+ps:  
+Extended Data Type  
+pandas library  
+DataFrame: similar with Table  
 
-numpy: Array
-labels = ['account', 'Jan', 'Feb', 'Mar']
-
-Tuple: similar with Array
-nested_tup = (4, 5, 6), (7, 8)
-
+numpy:  
+Array  
+labels = ['account', 'Jan', 'Feb', 'Mar']  
+  
+Tuple:  
+similar with Array  
+nested_tup = (4, 5, 6), (7, 8)  
+  
 
 ## 3.Loading files and importing library
 Import library:
@@ -39,38 +42,38 @@ Read file:
 dat = pd.read_csv('./home/user/file.tab', sep = '\t')
 
 
-ps:
-Numpy:
+Libray Examples:
+- Numpy:
 Besides its obvious `scientific uses`, NumPy can also be used as an efficient multi-dimensional container of generic data.
 
-Scipy:
+- Scipy:
 A Python-based ecosystem of open-source software for mathematics, science, and engineering.
 
-matplotlib:
+- matplotlib:
 Matplotlib is a Python `2D plotting library` which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.  
 
-statsmodels:
+- statsmodels:
 A Python module that provides classes and functions for the estimation of many different statistical models.
   
-pandas:
+- pandas:
 An open source, BSD-licensed library providing high-performance, easy-to-use `data structures and data analysis` tools.
 
-scikit-learn:
+- scikit-learn:
 Simple and efficient tools for `data mining` and data analysis.
 
-TensorFlow: (Google)
+- TensorFlow: (Google)
 An open source `machine learning library` for research and production.
 
-seaborn:
+- seaborn:
 Seaborn is a Python data `visualization library based on matplotlib`. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
-ggplot:
+- ggplot:
 A plotting system for Python based on R's ggplot2 and the Grammar of `Graphics`.
 
-bokeh:
+- bokeh:
 An `interactive visualization` library that targets modern web browsers for presentation.
 
-plotly:
+- plotly:
 Plotly's Python graphing library makes `interactive, publication-quality graphs` online.
 
 

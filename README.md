@@ -87,6 +87,14 @@ def add_and_maybe_multiply(a, b, c=None):
 str[1:5]
 
 
+memo:
+PY 
+04 函示宣告定義、使用 
+05 資料處理範例 
+實做資料分析
+EX 1 2 4 5 6 7
+
+
 
 ### Reference
 https://www.programiz.com/

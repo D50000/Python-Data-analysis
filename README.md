@@ -42,7 +42,7 @@ Read file:
 dat = pd.read_csv('./home/user/file.tab', sep = '\t')
 
 
-Libray Examples:
+Library Examples:
 - Numpy:
 Besides its obvious `scientific uses`, NumPy can also be used as an efficient multi-dimensional container of generic data.
 
@@ -77,20 +77,26 @@ An `interactive visualization` library that targets modern web browsers for pres
 Plotly's Python graphing library makes `interactive, publication-quality graphs` online.
 
 
-## 4.Function define
-def add_and_maybe_multiply(a, b, c=None):
-    result = a + b
-    if c is not None:
-        result = result * c
-    return result
+## 4.if...else Statement
+ - if...elif...else
+ - if x else y (**Ternary Conditional Operator**)
+ 
 
-str[1:5]
+## 5.For Loop
+ - For Loop
+ - While Loop
+ - **break** and **continue** statement
+
+
+## 6.Function Define
+ - Declare a python function
+ - Lambda Function in python (**Anonymous**)
+
 
 
 memo:
 PY 
-04 函示宣告定義、使用 
-05 資料處理範例 
+07 資料處理範例 
 實做資料分析
 EX 1 2 4 5 6 7
 

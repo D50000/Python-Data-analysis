@@ -93,12 +93,9 @@ Plotly's Python graphing library makes `interactive, publication-quality graphs`
  - Lambda Function in python (**Anonymous**)
 
 
+## 7~x. Python Data Analysis Practice
+**Practice sheet:** Python-Data-analysis/data/On Practices Python Data Analysis Basics.docx
 
-memo:
-PY 
-07 資料處理範例 
-實做資料分析
-EX 1 2 4 5 6 7
 
 
 

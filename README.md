@@ -32,15 +32,15 @@ nested_tup = (4, 5, 6), (7, 8)
   
 
 ## 3.Loading files and importing library
-Import library:
-import pandas as pd
+Import library:  
+```import pandas as pd```
 
-Import specific methods:
-from datetime import datetime, date, time
+Import specific methods:  
+```from datetime import datetime, date, time```
 
-Read file:
-dat = pd.read_csv('./home/user/file.tab', sep = '\t')
-
+Read file:  
+```dat = pd.read_csv('./home/user/file.tab', sep = '\t')```
+  
 
 Library Examples:
 - Numpy:

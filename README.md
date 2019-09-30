@@ -2,12 +2,12 @@
 Introduce and practice Python in "Data analysis".
 
 
-## 1.Environment and CLI setup
+## 1. Environment and CLI setup
 native: python + library package use `pip` command.  
 IDE: Anaconda use `conda` command. (It bundle all the useful tool for data analysis)
 
 
-## 2.Python native data structures
+## 2. Python native data structures
 Every value in Python has a datatype. Since everything is an `object` in Python programming, data types are actually classes and variables are instance (object) of these classes.
 
 - Number（数字）
@@ -31,7 +31,7 @@ similar with Array
 nested_tup = (4, 5, 6), (7, 8)  
   
 
-## 3.Loading files and importing library
+## 3. Loading files and importing library
 Import library:  
 ```import pandas as pd```
 
@@ -77,18 +77,18 @@ An `interactive visualization` library that targets modern web browsers for pres
 Plotly's Python graphing library makes `interactive, publication-quality graphs` online.
 
 
-## 4.if...else Statement
+## 4. if...else Statement
  - if...elif...else
  - if x else y (**Ternary Conditional Operator**)
  
 
-## 5.For Loop
+## 5. For Loop
  - For Loop
  - While Loop
  - **break** and **continue** statement
 
 
-## 6.Function Define
+## 6. Function Define
  - Declare a python function
  - Lambda Function in python (**Anonymous**)
 

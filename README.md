@@ -32,6 +32,9 @@ nested_tup = (4, 5, 6), (7, 8)
   
 
 ## 3. Loading files and importing library
+Package, Module, function import examples  
+https://pyliaorachel.github.io/blog/tech/python/2017/09/15/pythons-import-trap.html
+
 Import library:  
 ```import pandas as pd```
 

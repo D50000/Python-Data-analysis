@@ -10,13 +10,66 @@ IDE: Anaconda use `conda` command. (It bundle all the useful tool for data analy
 ## 2. Python native data structures
 Every value in Python has a datatype. Since everything is an `object` in Python programming, data types are actually classes and variables are instance (object) of these classes.
 
-- Number（数字）
-- String（字符串）: write-protect
-- List（列表）: List: similar with simple List in Java.
-- Tuple（元组）: write-protect version of List.
-- Set（集合）: Set is an unordered collection of unique items. 
-- Dictionary（字典）: Dict: similar with Object
+<details>
+<summary> Number（數字）</summary>
 
+```python
+x = 20
+print(x) #print: 20
+print(type(x)) #print: <class 'int'>
+```
+</details>
+
+<details>
+<summary> String（字符串）: write-protect </summary>
+
+```python
+x = "Hello"
+print([0:2]) #print: He
+print(type(x)) #print: <class 'str'>
+```
+</details>
+
+<details>
+<summary> List（列表）: List: similar with simple List in Java. </summary>
+
+```python
+x = ["apple", "banana", "cherry"]
+print(x[1]) #print: banana
+print(type(x)) #print: <class 'list'>
+```
+</details>
+
+<details>
+<summary> Tuple（元组）: write-protect version of List. </summary>
+
+```python
+x = (5,'program', 1+3j)
+print(x[1:3]) #print: ('program', (1+3j))
+print(type(x)) #print: <class 'tuple'>
+```
+</details>
+
+<details>
+<summary> Set（集合）: Set is an unordered collection of unique items. </summary>
+
+```python
+x = {"apple", "banana", "cherry"}
+print(x[1:3]) #print: {"apple", "banana", "cherry"}
+print(type(x)) #print: <class 'set'>
+```
+</details>
+
+<details>
+<summary> Dictionary（字典）: Dict: similar with Object </summary>
+
+```python
+x = {'dict1': {'innerkey': 'value'}}
+print(x['dict1']['innerkey']) #print: value
+print(type(x)) #print: <class 'dict'>
+```
+</details>
+  
 ps:  
 Extended Data Type  
 pandas library  
@@ -44,8 +97,9 @@ Import specific methods:
 Read file:  
 ```dat = pd.read_csv('./home/user/file.tab', sep = '\t')```
   
+<details>
+<summary>Library Examples:</summary>
 
-Library Examples:
 - Numpy:
 Besides its obvious `scientific uses`, NumPy can also be used as an efficient multi-dimensional container of generic data.
 
@@ -78,7 +132,7 @@ An `interactive visualization` library that targets modern web browsers for pres
 
 - plotly:
 Plotly's Python graphing library makes `interactive, publication-quality graphs` online.
-
+</details>
 
 ## 4. if...else Statement
  - if...elif...else

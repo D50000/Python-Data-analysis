@@ -148,6 +148,39 @@ Plotly's Python graphing library makes `interactive, publication-quality graphs`
 ## 6. Function Define
  - Declare a python function
  - Lambda Function in python (**Anonymous**)
+ - *args vs **kwargs
+```
+def foo(*args, **kwargs):
+    print 'args = ', args
+    print 'kwargs = ', kwargs
+    print '---------------------------------------'
+
+if __name__ == '__main__':
+    foo(1,2,3,4)
+    foo(a=1,b=2,c=3)
+    foo(1,2,3,4, a=1,b=2,c=3)
+    foo('a', 1, None, a=1, b='2', c=3)
+    
+# Output:
+args =  (1, 2, 3, 4) 
+kwargs =  {} 
+--------------------------------------- 
+args =  () 
+kwargs =  {'a': 1, 'c': 3, 'b': 2} 
+--------------------------------------- 
+args =  (1, 2, 3, 4) 
+kwargs =  {'a': 1, 'c': 3, 'b': 2} 
+--------------------------------------- 
+args =  ('a', 1, None) 
+kwargs =  {'a': 1, 'c': 3, 'b': '2'} 
+---------------------------------------
+
+# Using **kwargs for creating a dictionary.
+def kw_dict(**kwargs):
+   return kwargs
+print kw_dict(a=1,b=2,c=3) == {'a':1, 'b':2, 'c':3}
+```
+Use ```*args``` and ```**kwargs``` at the same function. Must put *args at first place. Or will show “SyntaxError: non-keyword arg after keyword arg”.
 
 
 ## 7~15. Python Data Analysis Practice
